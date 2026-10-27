@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at top, #254737, #101b20 65%);
+  color: #dbe8dd;
+  font-family: system-ui, sans-serif;
+}
+.container { max-width: 1100px; }
+h1 { color: #b5f36c; font-size: clamp(2.8rem, 7vw, 5rem); font-weight: 900; letter-spacing: -2px; }
+.portal-label { color: #b5f36c; font-size: .75rem; letter-spacing: 3px; }
+.personaje { background: #eef5e5; color: #203426; border: 2px solid #91c957; border-radius: 18px; overflow: hidden; }
+.personaje:hover { box-shadow: 0 0 20px #a5ed6040; }
+.personaje img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; }
