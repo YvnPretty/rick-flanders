@@ -10,3 +10,6 @@ h1 { color: #b5f36c; font-size: clamp(2.8rem, 7vw, 5rem); font-weight: 900; lett
 .personaje { background: #eef5e5; color: #203426; border: 2px solid #91c957; border-radius: 18px; overflow: hidden; }
 .personaje:hover { box-shadow: 0 0 20px #a5ed6040; }
 .personaje img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; }
+.buscador { max-width: 520px; }
+.buscador input { border: 2px solid #91c957; border-radius: 12px; background: #eef5e5; }
+.buscador input:focus { border-color: #b5f36c; box-shadow: 0 0 0 3px #b5f36c40; }
